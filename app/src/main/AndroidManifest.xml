@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liu.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.liu.test.TestActivity"
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--请添加这里的整个intent-filter区块，并确保其中只有一个data字段-->
+
+
+            <!--请添加这里的整个intent-filter区块，并确保其中只有一个data字段-->
+        </activity>
+
+    </application>
+
+</manifest>

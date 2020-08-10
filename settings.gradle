@@ -1,0 +1,4 @@
+include ':processor'
+include ':annotation'
+rootProject.name='Test'
+include ':app'
