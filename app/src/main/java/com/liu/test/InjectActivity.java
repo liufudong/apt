@@ -11,7 +11,7 @@ public class InjectActivity {
     ///打脸
     ///啊啊啊
    ///打脸
-    ///啊啊啊
+    ///啊啊啊1
     private static final ArrayMap<String, Object> injectMap = new ArrayMap<String, Object>();
 
     public static void inject(Activity activity) {
