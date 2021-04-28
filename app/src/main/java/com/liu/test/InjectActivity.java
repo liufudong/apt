@@ -8,7 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.lang.reflect.Method;
 
 public class InjectActivity {
-    
+    ///打脸
+    ///啊啊啊
    ///打脸
     ///啊啊啊
     private static final ArrayMap<String, Object> injectMap = new ArrayMap<String, Object>();
