@@ -8,6 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.lang.reflect.Method;
 
 public class InjectActivity {
+    
+    
+    ///啊啊啊
     private static final ArrayMap<String, Object> injectMap = new ArrayMap<String, Object>();
 
     public static void inject(Activity activity) {
